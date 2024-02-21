@@ -1,0 +1,69 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.left-center,
+.center,
+.center-right {
+    width: 30%; 
+}
+
+.input-container,
+.color-container {
+    margin-bottom: 15px;
+}
+
+#quote {
+    font-size: 24px;
+    text-align: center;
+}
+
+#canvas-container {
+    display: inline-block;
+    position: relative;
+}
+
+#animatedText {
+    font-size: 100px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.color-container {
+    margin-bottom: 15px;
+}
+
+#waveSpeedSlider {
+    width: 100%;
+    -webkit-appearance: none; /
+}
+
+#waveSpeedSlider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    width: 15px;
+    height: 15px;
+    background: black; 
+    cursor: pointer;
+}
+
+#waveSpeedSlider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    background: black; 
+    cursor: pointer;
+}
+
