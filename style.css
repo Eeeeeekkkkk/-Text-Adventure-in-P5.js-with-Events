@@ -1,59 +1,40 @@
-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
+
+.input-label {
+    font-size: 18px;
+    font-family: 'Arial', sans-serif; 
 }
 
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    width: 80%;
+.input-field {
+    font-size: 18px;
 }
 
-.left-center,
-.center,
-.center-right {
-    width: 30%; 
-}
 
-.input-container,
-.color-container {
-    margin-bottom: 15px;
-}
-
-#quote {
+#quote1 {
+    font-weight: bold;
     font-size: 24px;
+    text-align: left;
+}
+
+.quote {
+    font-size: 18px; 
     text-align: center;
 }
 
 #canvas-container {
     display: inline-block;
     position: relative;
+    width: 50vw;
+    margin: 0 auto;
 }
 
-#animatedText {
-    font-size: 100px;
-    font-weight: bold;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.color-container {
-    margin-bottom: 15px;
-}
 
 #waveSpeedSlider {
-    width: 100%;
-    -webkit-appearance: none; /
+    width: 10%;
+    -webkit-appearance: none;
 }
 
 #waveSpeedSlider::-webkit-slider-thumb {
-    -webkit-appearance: none; 
+    -webkit-appearance: none;
     width: 15px;
     height: 15px;
     background: black; 
@@ -61,7 +42,7 @@ body {
 }
 
 #waveSpeedSlider::-moz-range-thumb {
-    width: 15px;
+    width: 8px;
     height: 15px;
     background: black; 
     cursor: pointer;
